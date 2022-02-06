@@ -108,7 +108,7 @@ body {
 .content__about {
 	height: 800px;
 	overflow: auto;
-	background-color: rgb(90, 146, 125);
+	background-color: rgb(93, 116, 190);
 	margin: 0;
 }
 .history__title img {
@@ -128,7 +128,6 @@ body {
 	background-color: #fff;
 }
 .invention__text {
-	background-color: rgb(129, 155, 96);
 	font-size: 20px;
 	line-height: 22px;
 	font-family: "LeMondeLivre-ItalicClassic", serif;
@@ -142,7 +141,8 @@ body {
 	margin: 0px 0px 10px 0px;
 }
 .invention__image {
-	background-color: rgb(129, 155, 96);
+	background-color: #fff;
+	margin: 20px 0 0 0;
 }
 .invention__image img {
 	width: 500px;
