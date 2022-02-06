@@ -55,137 +55,129 @@ body {
 .wrapper {
 	min-height: 500px;
 	overflow: hidden;
-	background-color: rgba(112, 117, 122, 0.164);
 }
 /* ================================================================ */
 
 .content__header {
-	margin: 0 0 30px 0;
 }
 .menu {
-	padding: 20px 0 0 20px;
+	padding: 20px 0 20px 20px;
+	background-color: rgb(93, 116, 190);
 }
 .content__header span {
 	padding: 0 40px 0 0;
-	color: rgb(67, 129, 148);
+	color: #fff;
 	text-decoration: underline;
 }
 .content__top {
-	margin: 0 0 20px 0;
+	background-color: rgb(93, 116, 190);
+	padding: 0 0 15px 0;
 }
 .top__title {
 	font-family: "LeMondeLivre-Bold", serif;
 	text-align: center;
 	font-size: 30px;
 	font-weight: 700;
-	color: rgb(80, 145, 175);
-	margin: 0 0 10px 0;
-	text-shadow: 1px 1px 1px rgb(145, 213, 240);
+	color: #fff;
+	text-shadow: 1px 2px 1px rgb(145, 213, 240);
+	padding: 10px 0;
 }
 .top__text {
 	font-size: 20px;
 	line-height: 20px;
 	text-align: justify;
-	margin: 0 0 10px 0;
-	padding: 0 10px 0 10px;
-}
-.top__image {
-	margin: 0 0 20px 0;
+	color: #fff;
 }
 .top__image img {
 	width: 100%;
 	height: 100px;
 }
-.content__about {
-	border: 1px solid #000;
-	height: 1000px;
-	overflow: auto;
-	background-color: aliceblue;
-	margin: 0;
-}
 .title {
 	font-family: "LeMondeLivre-Bold", serif;
-	font-weight: 600;
+	font-weight: 700;
 	text-align: center;
 	font-size: 25px;
-	margin: 0 0 10px 0;
-	color: green;
+	padding: 20px 0;
+	color: rgb(8, 39, 65);
 }
 .text {
-	padding: 0 20px 0 20px;
+	padding: 0 30px 0 30px;
 	text-align: justify;
+	box-sizing: border-box;
 }
-.content__history {
-	margin: 0 0 25px 0;
-}
-.history__title h2 {
-	padding: 150px 0 0 0;
-	display: inline-block;
-	color: green;
+.content__about {
+	height: 800px;
+	overflow: auto;
+	background-color: rgb(90, 146, 125);
+	margin: 0;
 }
 .history__title img {
-	height: 300px;
-	padding: 0 100px 0 0;
+	height: 200px;
+	margin: 10px 0 0 0;
+}
+.history__title h2 {
+	display: inline-block;
+	color: rgb(8, 39, 65);
+	background-color: #fff;
+	padding: 10px 10px;
+	margin: 70px 20px 0 0;
 }
 .history__text {
 	font-size: 20px;
 	line-height: 22px;
-}
-.content__invention {
-	margin: 0 0 20px 0;
+	background-color: #fff;
 }
 .invention__text {
+	background-color: rgb(129, 155, 96);
 	font-size: 20px;
 	line-height: 22px;
 	font-family: "LeMondeLivre-ItalicClassic", serif;
 	font-style: italic;
+	padding: 10px 20px;
+	height: 120px;
+	overflow: scroll;
 }
 .invention__text p {
-	margin: 0 0 5px 0;
+	background-color: #fff;
+	margin: 0px 0px 10px 0px;
+}
+.invention__image {
+	background-color: rgb(129, 155, 96);
 }
 .invention__image img {
 	width: 500px;
 	height: 300px;
-}
-.content__structure {
-	margin: 0 0 10px 0;
+	margin: 0 200px;
 }
 .structure__text {
 	font-size: 20px;
 	line-height: 22px;
+	background-color: #fff;
 }
 .structure__text p {
-	margin: 0 0 10px 0;
-}
-.structure__image {
-	margin: 0 0 10px 0;
+	background-color: #fff;
+	margin: 0px 0 5px 0;
 }
 .structure__image img {
 	width: 100%;
-	height: 400px;
-}
-.structure__details {
-	margin: 0 0 10px 0;
+	height: 350px;
 }
 .details__list {
-	padding: 0 0 0 35px;
+	background-color: #fff;
+	padding: 0 0 0 50px;
 }
 .details__list li {
 	font-size: 18px;
 	line-height: 25px;
 }
 .structure__work {
-	padding: 0 0 0 35px;
-	margin: 0 0 30px 0;
+	padding: 20px;
+	background-color: #fff;
 }
 .work__list li {
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 20px;
-	font-family: serif;
 	margin: 0 0 10px 0;
-}
-.content__results {
-	margin: 0 0 20px 0;
 }
 .results__text {
 	font-family: "LeMondeLivre-ItalicClassic", serif;
@@ -193,26 +185,32 @@ body {
 	font-size: 18px;
 	line-height: 22px;
 	padding: 0 20px 0 20px;
-}
-.link__up {
-	text-align: center;
-	font-size: 25px;
-	color: blue;
+	color: #fff;
 }
 .footer {
 	min-height: 100px;
 	background-color: azure;
 }
+.link__up {
+	margin: 10px 0 0 0;
+	text-align: center;
+	font-size: 30px;
+	color: blue;
+}
 .footer__signature {
 	padding: 30px 0 0 20px;
-	text-decoration: underline;
-	font-size: 20px;
-	font-size: 18px;
+	text-decoration: overline;
+	font-size: 25px;
 	color: rgb(172, 48, 48);
+}
+.span__left {
+	text-decoration: underline;
 }
 .span__center {
 	padding: 0 0 0 70px;
+	text-decoration: underline;
 }
 .span__link {
-	padding: 0 0 0 70px;
+	padding: 0 0 0 200px;
+	text-decoration: underline;
 }
