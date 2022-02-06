@@ -89,6 +89,9 @@ body {
 	margin: 0 0 10px 0;
 	padding: 0 10px 0 10px;
 }
+.top__image {
+	margin: 0 0 20px 0;
+}
 .top__image img {
 	width: 100%;
 	height: 100px;
@@ -110,6 +113,7 @@ body {
 }
 .text {
 	padding: 0 20px 0 20px;
+	text-align: justify;
 }
 .content__history {
 	margin: 0 0 25px 0;
@@ -126,7 +130,6 @@ body {
 .history__text {
 	font-size: 20px;
 	line-height: 22px;
-	text-align: justify;
 }
 .content__invention {
 	margin: 0 0 20px 0;
@@ -134,7 +137,6 @@ body {
 .invention__text {
 	font-size: 20px;
 	line-height: 22px;
-	text-align: justify;
 	font-family: "LeMondeLivre-ItalicClassic", serif;
 	font-style: italic;
 }
@@ -151,7 +153,6 @@ body {
 .structure__text {
 	font-size: 20px;
 	line-height: 22px;
-	text-align: justify;
 }
 .structure__text p {
 	margin: 0 0 10px 0;
@@ -191,7 +192,6 @@ body {
 	font-style: italic;
 	font-size: 18px;
 	line-height: 22px;
-	text-align: justify;
 	padding: 0 20px 0 20px;
 }
 .link__up {
