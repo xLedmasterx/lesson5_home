@@ -104,6 +104,7 @@ body {
 	padding: 0 30px 0 30px;
 	text-align: justify;
 	box-sizing: border-box;
+	line-height: 22px;
 }
 .content__about {
 	height: 800px;
@@ -124,7 +125,6 @@ body {
 }
 .history__text {
 	font-size: 20px;
-	line-height: 22px;
 	background-color: #fff;
 }
 .invention__text {
@@ -151,7 +151,6 @@ body {
 }
 .structure__text {
 	font-size: 20px;
-	line-height: 22px;
 	background-color: #fff;
 }
 .structure__text p {
@@ -183,7 +182,6 @@ body {
 	font-family: "LeMondeLivre-ItalicClassic", serif;
 	font-style: italic;
 	font-size: 18px;
-	line-height: 22px;
 	padding: 0 20px 0 20px;
 	color: #fff;
 }
