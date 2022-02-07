@@ -162,7 +162,6 @@ body {
 .details__title {
 	height: 20px;
 	width: 400px;
-	border: 1px solid #000;
 	overflow: visible;
 	background: green;
 	margin: 0 0 30px 0;
@@ -174,7 +173,6 @@ body {
 .details__title_2 {
 	height: 20px;
 	width: 400px;
-	border: 1px solid #000;
 	overflow: hidden;
 	background: green;
 	margin: 0 0 30px 100px;
